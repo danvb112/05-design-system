@@ -17,9 +17,12 @@
     "@ignite-ui/eslint-config": "*",
     "@ignite-ui/tokens": "*",
     "@ignite-ui/ts-config": "*",
+    "@radix-ui/react-avatar": "^1.1.1",
+    "phosphor-react": "^1.4.1",
     "@types/react": "^18.3.5",
     "@types/react-dom": "^18.3.0",
     "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "tsup": "^8.2.4",
     "typescript": "^5.5.4"
   },
