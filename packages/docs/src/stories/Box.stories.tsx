@@ -11,7 +11,14 @@ export default {
                 <span>Testando o elemento box</span>
             </>
         )
-    }
+    },
+    argTypes: {
+        children: {
+          control: {
+            type: null,
+          },
+        },
+      },
 } as Meta<BoxProps>
 
 export const Primary: StoryObj<BoxProps> = {}
