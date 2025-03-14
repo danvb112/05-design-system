@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "deploy-storybook": "storybook-to-ghpages"
+    "deploy-storybook": "storybook-to-ghpages --git-remote https://x-access-token:$GH_TOKEN@github.com/danvb112/05-design-system.git"
   },
   "dependencies": {
     "@ignite-ui/eslint-config": "*",
