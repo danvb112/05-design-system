@@ -39,20 +39,20 @@ export const Secondary: StoryObj<ButtonProps> = {
   args: {
     variant: 'secondary',
     children: 'Create new',
-  },
+  } as any,
 }
 
 export const Tertiary: StoryObj<ButtonProps> = {
   args: {
     variant: 'tertiary',
     children: 'Cancel',
-  },
+  } as any,
 }
 
 export const Small: StoryObj<ButtonProps> = {
   args: {
     size: 'sm',
-  },
+  } as any,
 }
 
 export const WithIcon: StoryObj<ButtonProps> = {
@@ -63,11 +63,11 @@ export const WithIcon: StoryObj<ButtonProps> = {
         <ArrowRight weight="bold" />
       </>
     ),
-  },
+  } as any,
 }
 
 export const Disabled: StoryObj<ButtonProps> = {
   args: {
     disabled: true,
-  },
+  } as any,
 }
