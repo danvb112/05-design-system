@@ -9,7 +9,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "deploy-storybook": "storybook-to-ghpages"
   },
   "dependencies": {
     "@ignite-ui/eslint-config": "*",
@@ -21,6 +22,7 @@
     "phosphor-react": "^1.4.1"
   },
   "devDependencies": {
+    "@storybook/storybook-deployer": "^2.8.12",
     "@chromatic-com/storybook": "^1.9.0",
     "@eslint/js": "^9.9.0",
     "@storybook/addon-essentials": "^8.2.9",
